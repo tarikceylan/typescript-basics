@@ -7,13 +7,3 @@ let age: number = 30
 // age = '30'
 console.log(`${firstName} ${lastName} (${age})`);
 
-//We Can also declare types for varaibles which are being used as an arguments in a function
-const findSum = (x: number,y: number) => {
-    let sum = x+y;
-    return sum
-}
-findSum(1,4);
-
-//If we call the same function with a string argument, instead of a number, TS will throw an error
-// findSum('1', 4);
-
