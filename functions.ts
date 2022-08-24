@@ -7,7 +7,7 @@ console.log(findSum(1,4));
 ;
 
 //If we call the same function with a string parameter, instead of a number, TS will throw an error
-// findSum('1', 4);
+findSum('1', 4);
 
 //We can also state the type of return values
 interface User {

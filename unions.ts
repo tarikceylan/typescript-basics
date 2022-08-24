@@ -21,5 +21,5 @@ myState = 'Working' //But it's case sensitive. The string 'working' will throw a
 console.log(myState);
 
 //TypeScript will throw en error since 'Bored' is not a possible value
-// myState = 'Bored'
-// console.log(myState);
+myState = 'Bored'
+console.log(myState);

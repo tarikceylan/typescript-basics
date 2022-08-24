@@ -5,6 +5,8 @@ var findSum = function (x, y) {
 };
 console.log(findSum(1, 4));
 ;
+//If we call the same function with a string parameter, instead of a number, TS will throw an error
+findSum('1', 4);
 //Here we use 'User' interface and explicitly state a return value from this function should be a 'User' object.
 var getUser = function () {
     //Then create a new User object saved in the 'newUser' variable
