@@ -1,8 +1,14 @@
 //We can assign multiple types to a custom type using unions
-type MyBoolType = boolean | number
+type MyType = string | number
 
-//myValue has a boolean type
-let myValue: MyBoolType = false
+/* If using unions, it's not possible to use a method specific to one of the types 
+For Ex; We can not use .toUpperCase() method on MyType
+*/
+let myNumber: MyType = 10
+myNumber.toUpperCase()
+
+//myValue has a string type
+let myValue: MyType = 'JohnDoe'
 console.log(myValue)
 
 //myvalue has a number type
