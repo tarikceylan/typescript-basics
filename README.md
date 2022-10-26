@@ -6,7 +6,7 @@ TypeScript documentation can be found on [typescriptlang.org](https://www.typesc
 ## Installing TypeScript
 
 - To install TypeScript globally, we can simply run `npm i -g typescript`
-- To confirm TypeScript is installed properly we can run `tsc -v` command. (Returns TypeScript Version)
+- To confirm that TypeScript is installed properly we can run `tsc -v` command. (Returns TypeScript Version)
 
 ## Using TypeScript
 
