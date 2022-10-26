@@ -1,4 +1,4 @@
-# Type-Script Basics
+# TypeScript Basics
 
 This repository is for learning TypeScript Basics
 TypeScript documentation can be found on [typescriptlang.org](https://www.typescriptlang.org/)
