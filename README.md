@@ -1,7 +1,7 @@
-# Type-Script Practice
+# Type-Script Basics
 
-- This repository is made for self TypeScript Practices.
-- Docs can be found on [typescriptlang.org](https://www.typescriptlang.org/)
+This repository is for learning TypeScript Basics
+TypeScript documentation can be found on [typescriptlang.org](https://www.typescriptlang.org/)
 
 ## Installing TypeScript
 
